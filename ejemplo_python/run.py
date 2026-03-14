@@ -52,3 +52,8 @@ print(lista2)
 oración uniendo únicamente las palabras que tengan más de 3 letras, separadas por
 espacios. Las palabras cortas deben ser excluidas del resultado final.
 """  
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> dc6cf6ad6a852bb584bd61765f9a4e7feda611a4
