@@ -38,10 +38,6 @@ print("el total acumulado es: ", total)
 6. Modifica el ejercicio 4 para que, en lugar de imprimir los números, genere dos listas:
 una con los múltiplos de 5 y otra con el resto de los números. Imprimí ambas listas al
 finalizar.
-7. Escribe un programa que solicite al usuario una lista de palabras. Luego, construí una
-oración uniendo únicamente las palabras que tengan más de 3 letras, separadas por
-espacios. Las palabras cortas deben ser excluidas del resultado final.
-"""
 lista1 = []
 lista2 = []
 num = int(input("ingrese numero: "))
@@ -50,9 +46,11 @@ for i in range(1,num):
         lista1.append(i)
     else:
         lista2.append(i)
-for i in lista1:
-    print(i)
-for i in lista2:
-    print(i)         
+print(lista1)
+print(lista2)      
+7. Escribe un programa que solicite al usuario una lista de palabras. Luego, construí una
+oración uniendo únicamente las palabras que tengan más de 3 letras, separadas por
+espacios. Las palabras cortas deben ser excluidas del resultado final.
+"""  
 
 
